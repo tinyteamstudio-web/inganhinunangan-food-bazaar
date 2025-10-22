@@ -18,7 +18,7 @@ We serve authentic Filipino comfort food made with love, smoke, and soul — jus
 **Ingan Native Kitchen** brings the warmth of Filipino home cooking to every plate.  
 Our humble kitchen is built with native style and served with heart — where food tastes like family gatherings, fiestas, and memories.
 
-📍 Located in *Ingan, Hinunangan, Southern Leyte, Philippines*  
+📍 Located at *LV Beach Camp Purok Santol Brgy. Ingan, Hinunangan, Southern Leyte, Philippines*  
 📅 Open daily for dine-in and takeout  
 
 ---
