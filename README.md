@@ -26,7 +26,7 @@ Our humble kitchen is built with native style and served with heart — where fo
 ## 💬 Contact Us
 📞 Call or Message: *[Insert your contact number or Messenger link]*  
 🌐 Website: [https://svpfunneldesignservices.com/ingan-native-kitchen](https://svpfunneldesignservices.com/ingan-native-kitchen)  
-📧 Email: *[your email here]*  
+
 
 ---
 
