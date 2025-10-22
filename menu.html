@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Ingan Native Kitchen</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #F8E8D0;
+      color: #3B2F2F;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #C3423F;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-style: italic;
+      margin: 5px 0 0;
+    }
+    .menu-section {
+      padding: 30px 10%;
+    }
+    .category {
+      margin-bottom: 40px;
+    }
+    .category h2 {
+      color: #C3423F;
+      border-bottom: 3px solid #D77A61;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .item:hover {
+      transform: scale(1.03);
+    }
+    .item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .item h3 {
+      margin: 10px;
+      color: #3B2F2F;
+    }
+    .item p {
+      margin: 0 10px 15px;
+      color: #5C504D;
+    }
+    footer {
+      text-align: center;
+      background-color: #C3423F;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ingan Native Kitchen</h1>
+    <p>Native favorites, cooked with heart. 🌾</p>
+  </header>
+
+  <section class="menu-section">
+    <div class="category">
+      <h2>🔥 From the Grill</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Pork+BBQ" alt="Pork Barbecue">
+          <h3>Pork Barbecue</h3>
+          <p>Tender pork skewers grilled over charcoal and glazed with our homemade BBQ sauce.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Chicken+BBQ" alt="Chicken Barbecue">
+          <h3>Chicken Barbecue</h3>
+          <p>Juicy chicken pieces marinated in native spices and grilled to perfection.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Inihaw+na+Bangus" alt="Grilled Bangus">
+          <h3>Inihaw na Bangus</h3>
+          <p>Fresh milkfish stuffed with tomatoes and onions, grilled the native way.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🍜 Pancit Selections</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Pancit+Canton" alt="Pancit Canton">
+          <h3>Pancit Canton</h3>
+          <p>Classic stir-fried noodles with vegetables, meat, and soy-based seasoning.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Pancit+Bihon" alt="Pancit Bihon">
+          <h3>Pancit Bihon</h3>
+          <p>Thin rice noodles sautéed with veggies and meat for a light yet flavorful meal.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Pancit+Bam-i" alt="Pancit Bam-i">
+          <h3>Pancit Bam-i</h3>
+          <p>A Visayan favorite combining canton and bihon noodles in one delicious dish.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🍔 Snacks & Sides</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Burger" alt="Burger">
+          <h3>Burger</h3>
+          <p>Juicy homemade burger served with fresh lettuce, tomato, and special dressing.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Dinakdakan" alt="Dinakdakan">
+          <h3>Dinakdakan</h3>
+          <p>A creamy, savory Ilocano-style pork dish — smoky, rich, and full of flavor.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🍧 Desserts & Drinks</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Halo-halo" alt="Halo-halo">
+          <h3>Halo-halo</h3>
+          <p>Colorful shaved ice dessert with leche flan, ube, and creamy milk — a Filipino favorite!</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Buko+Juice" alt="Buko Juice">
+          <h3>Buko Juice</h3>
+          <p>Fresh young coconut juice served cold for that refreshing tropical taste.</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/300x180?text=Sago't+Gulaman" alt="Sago't Gulaman">
+          <h3>Sago’t Gulaman</h3>
+          <p>A sweet Filipino classic drink made from tapioca pearls, gelatin, and brown sugar syrup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ingan Native Kitchen | Developed by Tiny Team Digital Studio</p>
+  </footer>
+
+</body>
+</html>
